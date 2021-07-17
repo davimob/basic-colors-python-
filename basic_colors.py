@@ -1,6 +1,11 @@
 #cores no terminal: cores e fundo básicas
 cores= {
+#limpa é usado após a cor para delimitar até onde ela vai
         'limpa': '\033[m',
+#neg: negrito
+#subli: sublinhado
+#as primeiras cores são a cor da letra ('preto+...')
+#as segundas cores são a cor de fundo ('...+azul')
 #cor preto e fundos
         'preto': '\033[30m',
         'negpreto': '\033[1;30m',
