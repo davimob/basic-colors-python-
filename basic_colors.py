@@ -1,7 +1,10 @@
 #cores no terminal: cores e fundo básicas
 cores= {
         'limpa': '\033[m',
+#cor preto e fundos
         'preto': '\033[30m',
+        'negpreto': '\033[1;30m',
+        'sublipreto': '\033[4;30m',
         'pretovermelho': '\033[30;41m',
         'pretoverde': '\033[30;42m',
         'pretoamarelo': '\033[30;43m',
@@ -10,7 +13,10 @@ cores= {
         'pretociano': '\033[30;46m',
         'pretocinza': '\033[30;47m',
 
+#cor vermelho e fundos
         'vermelho': '\033[31m',
+        'negvermelho': '\033[1;31m',
+        'sublivermelho': '\033[4;31m',
         'vermelhopreto': '\033[31;40m',
         'vermelhovermelho': '\033[31;41m',
         'vermelhoverde': '\033[31;42m',
@@ -20,7 +26,10 @@ cores= {
         'vermelhociano': '\033[31;46m',
         'vermelhocinza': '\033[31;47m',
 
+#cor verde e fundos
         'verde': '\033[32m',
+        'negverde': '\033[1;32m',
+        'subliverde': '\033[4;32m',
         'verdepreto': '\033[32;40m',
         'verdevermelho': '\033[32;41m',
         'verdeverde': '\033[32;42m',
@@ -30,7 +39,10 @@ cores= {
         'verdeciano': '\033[32;46m',
         'verdecinza': '\033[32;47m',
 
+#cor amarelo e fundos
         'amarelo': '\033[33m',
+        'negamarelo': '\033[1;33m',
+        'subliamarelo': '\033[4;33m',
         'amarelopreto': '\033[33;40m',
         'amarelovermelho': '\033[33;41m',
         'amareloverde': '\033[33;42m',
@@ -40,7 +52,10 @@ cores= {
         'amarelociano': '\033[33;46m',
         'amarelocinza': '\033[33;47m',
 
+#cor azul e fundos
         'azul': '\033[34m',
+        'negazul': '\033[1;34m',
+        'subliazul': '\033[4;34m',
         'azulpreto': '\033[34;40m',
         'azulvermelho': '\033[34;41m',
         'azulverde': '\033[34;42m',
@@ -50,7 +65,10 @@ cores= {
         'azulciano': '\033[34;46m',
         'azulcinza': '\033[34;47m',
 
+#cor roxo e fundos
         'roxo': '\033[35m',
+        'negroxo': '\033[1;35m',
+        'subliroxo': '\033[4;35m',
         'roxopreto': '\033[35;40m',
         'roxovermelho': '\033[35;41m',
         'roxoverde': '\033[35;42m',
@@ -60,7 +78,10 @@ cores= {
         'roxociano': '\033[35;46m',
         'roxocinza': '\033[35;47m',
 
+#cor ciano e fundos
         'ciano': '\033[36m',
+        'negciano': '\033[1;36m',
+        'subliciano': '\033[4;36m',
         'cianopreto': '\033[36;40m',
         'cianovermelho': '\033[36;41m',
         'cianoverde': '\033[36;42m',
@@ -70,7 +91,10 @@ cores= {
         'cianociano': '\033[36;46m',
         'cianocinza': '\033[36;47m',
 
+#cor cinza e fundos
         'cinza': '\033[37m',
+        'negcinza': '\033[1;37m',
+        'sublicinza': '\033[4;37m',
         'cinzapreto': '\033[37;40m',
         'cinzavermelho': '\033[37;41m',
         'cinzaverde': '\033[37;42m',
@@ -80,5 +104,3 @@ cores= {
         'cinzaciano': '\033[37;46m',
         'cinzacinza': '\033[37;47m',
 }
-nome= input('Qual seu nome? ')
-print('Olá! Muito prazer em te conhecer, {}{}{}!'.format(cores['ciano'], nome, cores['limpa']))
