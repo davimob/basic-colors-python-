@@ -108,4 +108,18 @@ cores= {
         'cinzaroxo': '\033[37;45m',
         'cinzaciano': '\033[37;46m',
         'cinzacinza': '\033[37;47m',
+
+#cor branco e fundos
+        'branco': '\033[97m',
+        'negbranco': '\033[1;97m',
+        'sublibranco': '\033[4;97m',
+        'brancopreto': '\033[97;40m',
+        'brancovermelho': '\033[97;41m',
+        'brancoverde': '\033[97;42m',
+        'brancoamarelo': '\033[97;43m',
+        'brancoazul': '\033[97;44m',
+        'brancoroxo': '\033[97;45m',
+        'brancociano': '\033[97;46m',
+        'brancocinza': '\033[97;47m',
+
 }
